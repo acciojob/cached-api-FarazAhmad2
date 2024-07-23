@@ -24,7 +24,7 @@ const App = () => {
       <ul>
         {memoizedData && memoizedData.map((item) => (
           <li key={item.id}>
-            <h3>{item.title}</h3>
+            <h4>{item.title}</h4>
             <p>{item.body}</p>
           </li>
         ))}
